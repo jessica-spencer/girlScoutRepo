@@ -1,6 +1,4 @@
-body {
-   /* background-color: blue; */
-}
+
 
 .nav-link {
     opacity: 0.7;
@@ -10,15 +8,111 @@ body {
     opacity: 0.7;
     background-color: #eee !important;
 }
-header{
-    height: 600px;
-    width: 100%;
-    background-image:url("starTrails.jpg");
-    background-size: cover;
-    text-align: center;
-    font-family: 'Major Mono Display', monospace;
-}
-
 header p {
    font-style: italic;
 }
+
+header{
+    height: 600%;
+    width: 100%;
+    background-image:url("deskPhoto.jpg");
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+header div{
+    color: white ;
+}
+
+.aboutus {
+ 	text-align: center;
+}
+
+.aboutus i{
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    /*Color changes the color of the icon*/
+   	color: #fff;
+   	background-color: #5cb85c;
+   	
+   	/*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+
+}
+
+.services span{
+   width: 200px;
+   display: inline-block;
+}
+
+/*Team*/
+.team{
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.team img{
+   width: 250px;
+   height: 250px;
+   /*Object fit will crop and center image based on width and height*/
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 50px;
+}
+.getinvolved .options {
+   padding: 30px;
+   margin: 5px;
+   border: 1px solid #ccc;
+   background-color: #fff;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+.getinvolved i{
+   width: 50px;
+   height: 50px;
+   font-size: 40px; 
+}
+/*Get Involved*/
+.getinvolved {
+   padding: 50px 0 50px;
+   text-align: center;
+   background-color: #5cb85c;
+   margin-top: 50px;
+   width: 100%;
+}
+
+.getinvolved h1{
+   color: #fff;
+}
+
+
+/*Contact*/
+.contact {
+   margin-bottom: 80px;
+}
+.contact .input-group {
+   margin-bottom: 25px;
+}
+.contact i {
+   padding: 15px;
+}
+.contact .btn {
+   border-radius: 0;
+   width: 100%;
+   font-size: 15px;
+   background-color: #f08080;
+   color: #fff;
+}
+.contact .btn:hover {
+   background-color: #a85959 !important;
+   color: #fff !important;
+}
+
+

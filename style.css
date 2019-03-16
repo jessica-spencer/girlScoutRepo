@@ -1,4 +1,7 @@
-
+section{
+    padding-top: 3%;
+   
+}
 
 .nav-link {
     opacity: 0.7;
@@ -13,16 +16,18 @@ header p {
 }
 
 header{
-    height: 600%;
+    height: 600px;
     width: 100%;
     background-image:url("deskPhoto.jpg");
     background-size: cover;
     text-align: center;
+
     
     
 }
 header div{
     color: white ;
+    margin-left: 5%;
 }
 
 .aboutus {
@@ -56,6 +61,7 @@ header div{
 .team{
    margin-top: 80px;
    margin-bottom: 80px;
+   text-align: center;
 }
 .team img{
    width: 250px;
@@ -65,20 +71,9 @@ header div{
    border-radius: 50%;
    margin-bottom: 50px;
 }
-.getinvolved .options {
-   padding: 30px;
-   margin: 5px;
-   border: 1px solid #ccc;
-   background-color: #fff;
-   border-radius: 5px;
-   margin-top: 30px;
-}
 
-.getinvolved i{
-   width: 50px;
-   height: 50px;
-   font-size: 40px; 
-}
+
+
 /*Get Involved*/
 .getinvolved {
    padding: 50px 0 50px;
@@ -92,10 +87,25 @@ header div{
    color: #fff;
 }
 
+.getinvolved .options {
+   padding: 30px;
+   /*margin: 5px;*/
+   border: 1px solid #ccc;
+   background-color: #fff;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+.getinvolved i{
+   width: 50px;
+   height: 50px;
+   font-size: 40px; 
+}
 
 /*Contact*/
 .contact {
    margin-bottom: 80px;
+   text-align: center;
 }
 .contact .input-group {
    margin-bottom: 25px;
@@ -115,4 +125,25 @@ header div{
    color: #fff !important;
 }
 
+footer {
+    background-color: black;
+    color: lightgray;
+    width:100%;
+    padding: 5%;
+    margin: 2%;
+}
+
+footer button{
+    margin-left: 10px;
+}
+
+
+.input-group-prepend{
+    color: lightblue;
+    padding: 5%;
+}
+
+.input-group-prepend i{
+    margin-right: 20px;
+}
 
